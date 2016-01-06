@@ -1,6 +1,6 @@
 pkgbase = systemd-suspend-modules
 	pkgdesc = Reload modules on suspend/hibernate with systemd
-	pkgver = 1.0
+	pkgver = 1.1
 	pkgrel = 2
 	url = https://aur.archlinux.org/packages/systemd-suspend-modules/
 	arch = any
@@ -8,7 +8,7 @@ pkgbase = systemd-suspend-modules
 	depends = systemd
 	backup = etc/suspend-modules.conf
 	source = suspend-modules
-	md5sums = fb9dd7f92479348a0fe1a784222e77d1
+	md5sums = 464a8347df5c492d48815145af1a3ee3
 
 pkgname = systemd-suspend-modules
 

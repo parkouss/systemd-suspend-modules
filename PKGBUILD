@@ -16,4 +16,4 @@ package() {
     mkdir ${pkgdir}/etc/
     touch ${pkgdir}/etc/suspend-modules.conf
 }
-md5sums=('fb9dd7f92479348a0fe1a784222e77d1')
+md5sums=('464a8347df5c492d48815145af1a3ee3')
