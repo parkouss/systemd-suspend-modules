@@ -75,9 +75,7 @@ case $1 in
         done
     ;;
     post)
-        for mod in $(</etc/suspend-modules.conf); do
-            modreload $mod
-        done
-        rm -f "${STORAGEDIR}/*"
+        modreload
+        rm -rf "${STORAGEDIR}"
     ;;
 esac
